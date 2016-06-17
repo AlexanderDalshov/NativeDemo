@@ -13,5 +13,5 @@ public class MyLib {
         Log.d("mylib", "mylib loaded");
     }
 
-    public static native void test();
+    public static native void initialize();
 }
