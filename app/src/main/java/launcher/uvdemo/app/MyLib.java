@@ -1,4 +1,4 @@
-package launcher.uvdemo.myapplication;
+package launcher.uvdemo.app;
 
 import android.util.Log;
 

@@ -8,6 +8,7 @@ add_subdirectory(spdlog)
 
 set(SOURCE_FILES
     mylib.cpp
+    Callstack.cpp
     )
 
 add_library(mylib SHARED ${SOURCE_FILES})
