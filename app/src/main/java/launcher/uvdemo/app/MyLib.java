@@ -3,7 +3,7 @@ package launcher.uvdemo.app;
 import android.util.Log;
 
 /**
- * Created by mac on 6/11/16.
+ * Created by Alexander Dalshov on 6/11/16.
  */
 
 public class MyLib {
@@ -13,5 +13,6 @@ public class MyLib {
         Log.d("mylib", "mylib loaded");
     }
 
-    public static native void initialize();
+    public static native void boom();
+    public static native void throwException() throws java.lang.Error;
 }
